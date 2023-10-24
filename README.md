@@ -5,9 +5,11 @@ Link to the live server of my Credit Risk Default Prediction streamlit app
 https://credit-risk-default-prediction-dharmendra.streamlit.app/
 
 **Business Objective:**
+
 The primary objective of the Credit Risk Default Prediction project is to assist a financial institution in assessing the creditworthiness of loan applicants. By utilizing machine learning and predictive modeling, the project aims to predict whether a loan applicant is likely to default on their loan. This is crucial for risk management and making informed lending decisions, helping to minimize financial losses and improve overall loan portfolio quality.
 
 **Approach:**
+
 The project leverages historical data on loan applicants and their financial profiles to build a predictive model. The approach involves the following key steps:
 
 Data Collection: Gathered the data from Kaggle.com.
@@ -21,6 +23,7 @@ Model Evaluation: Evaluated all trained model's performance using metrics like a
 Deployment: Deployed the trained model to Streamlit cloud. This allows real-time credit risk assessment for loan applicants.
 
 **Challenges Faced:**
+
 While developing the Credit Risk Default Prediction project, several challenges may have been encountered:
 
 Imbalanced Data: Imbalanced datasets, where non-default cases significantly outnumber default cases, can lead to model bias. Implemented SMOTE method under Random Over Sampling to handle class imbalance.
